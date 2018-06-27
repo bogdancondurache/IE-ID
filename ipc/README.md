@@ -10,3 +10,12 @@ aici o sa pun si la restul materiilor, doar ca in foldere diferite pentru fiecar
  * link-uri utilizate:
 	* https://en.cppreference.com/w/c/language/operator_precedence
 	* https://www.geeksforgeeks.org/data-types-in-c/
+	
+## 27.06
+
+ * **maine (28.06) de la 20 la IPC**
+ * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/245fdaa06e98a03aee288dad9ab6d20f9e12ba6b
+ * Whiteboard-ul: https://github.com/bogdancondurache/IE-ID-2-2/tree/b976b30dcb574b83a77301debc61cf761a4fd43b/ipc/assets
+ * inregistrarea de azi: https://www.icloud.com/iclouddrive/0oyD0oICIXTbhBs_vYBTVVshA#Intalnire%5FIPC%5F2_2018-06-27.mp4
+ * link-uri:
+	* https://boredzo.org/pointers/
