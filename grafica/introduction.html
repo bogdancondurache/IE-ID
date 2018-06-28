@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Titlul paginii mele</title>
+		<style>
+			.fundal-rosu{
+				background-color: red;
+			}
+			#principal {
+				padding-right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="principal" onclick="functie(event)" class="fundal-rosu paragraf center">
+		Acesta este un <span>text de demo</span>. Un fel de "Lorem ipsum"
+		</p>
+		<p>
+		Paragraf 2
+		</p>
+		<div>
+		alt text
+		</div>
+		<p class="fundal-rosu">
+		Paragraf 3
+		</p>
+	</body>
+	<script>
+		var el;
+		el = document.getElementById("principal");
+		el.style.backgroundColor = "green";
+		el.style.marginLeft = "50px";
+		el.style.marginTop = "100px";
+		function functie(e) {
+			console.log(e);
+			console.log(e.clientX);
+			console.log(e.clientY);
+		}
+	</script>
+</html>
