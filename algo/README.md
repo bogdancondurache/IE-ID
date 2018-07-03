@@ -3,6 +3,12 @@
 ### Subiecte de discutie
 https://docs.google.com/document/d/1VrneV2o15ZwA5noMYWna8zxWof9IlY6NoutGTytkwFg/edit?usp=sharing
 
+## 29.06 - Intalnirea 3
+  * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/44fd0329f6e3ef223d7fffd3fef7eb524f5b46b3
+  * inregistrarea de azi: https://www.icloud.com/iclouddrive/0XHSrRCIn-lFjPK-FvYrs173A#Intalnire%5FSDA%5F3_2018-07-03.mp4
+  * whiteboard: https://www.bitpaper.io/go/algo3/H1gkbJtMm
+  * whiteboard git + assets: https://github.com/bogdancondurache/IE-ID-2-2/commit/8c9401a499e882f38b3bfe66a2787f1dd4d52f43
+
 ## 29.06 - Intalnirea 2
   * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/2d0a196660492d45a6f15037ba7ab7a3b1a592b9
   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0B-oThI9Axz6iBTUfzZFwNZag#Intalnire%5FSDA%5F2_2018-07-01.mp4
