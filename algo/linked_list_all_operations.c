@@ -6,7 +6,7 @@ typedef struct Node {
 	struct Node *next;
 } Node;
 
-void deleteNode(Node **head_ref, int key) {
+void deleteValue(Node **head_ref, int key) {
 	Node* temp = *head_ref, *prev;
 	if (temp != NULL && temp->data == key) {
 		*head_ref = temp->next;
@@ -72,7 +72,7 @@ int main() {
 	insertAfter(head->next, 8);
 	printf("\n Lista creata: ");
 	printList(head);
-	deleteNode(&head, 1);
+	deleteValue(&head, 1);
 	printf("\n Lista dupa stergere: ");
 	printList(head);
 	return 0;
