@@ -1,0 +1,26 @@
+<!-- imagine cu bordura de 3px punctata si albastra. La apasarea butonului de mouse sa se
+schimbe imaginea cu alta, iar la eliberarea lui sa apara cea initiala -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			img {
+				border: 3px dotted blue;
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="image" onmousedown="change()" onmouseup="revert(event)" src="https://png.icons8.com/metro/1600/html.png">
+		<script>
+			function change() {
+				document.getElementById('image').src= "https://cdn-images-1.medium.com/max/1600/1*DN7ToydkJZEdVaJVK_Nhvw.png";
+			}
+			function revert(event) {
+				event.target.src = "https://png.icons8.com/metro/1600/html.png";
+			}
+		</script>
+	</body>
+</html>

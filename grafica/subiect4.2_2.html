@@ -1,0 +1,17 @@
+<!-- Inserati un textbox si in momentul in care se iese din textbox sa se afiseze valoarea intr-un div -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<textarea onmouseout="insertValue(event)"></textarea>
+		<div id="value">Aici va fi textul</div>
+		<script>
+			function insertValue(event) {
+				document.getElementById('value').innerHTML = event.target.value;
+			}
+		</script>
+	</body>
+</html>

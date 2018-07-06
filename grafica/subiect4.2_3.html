@@ -1,0 +1,23 @@
+<!-- Lista neordonata cu 6 elemente, cand se da click pe unul sa fie sters -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul onclick="remove(event)">
+			<li>e1</li>
+			<li>e2</li>
+			<li>e3</li>
+			<li>e4</li>
+			<li>e5</li>
+			<li>e6</li>
+		</ul>
+		<script>
+			function remove(event) {
+				event.target.remove();
+			}
+		</script>
+	</body>
+</html>

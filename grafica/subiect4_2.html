@@ -1,0 +1,27 @@
+<!-- 2 textboxuri cu culoare de fundal verde si un link. La click dreapta pe link sa
+se introduca 'abc' in cele 2 textboxuri -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		textarea {
+			background-color: green;
+		}
+	</style>
+	<body>
+		<textarea id="t1"></textarea>
+		<textarea id="t2"></textarea>
+		<a oncontextmenu="addValue(event)">Acesta este un link</a>
+		<script>
+			function addValue(event) {
+				event.preventDefault();
+				// document.getElementsByTagName('textarea')[0] si [1]
+				document.getElementById('t1').value = 'abc';
+				document.getElementById('t2').value = 'abc';
+			}
+		</script>
+	</body>
+</html>

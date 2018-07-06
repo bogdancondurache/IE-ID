@@ -1,0 +1,18 @@
+<!-- Text care primeste o umbra si va fi scris cu Monotype Corsiva la click dreapta -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div oncontextmenu="change(event)">Acesta este un text</div>
+		<script>
+			function change(event) {
+				event.preventDefault();
+				event.target.style.fontFamily = "Monotype Corsiva";
+				event.target.style.textShadow = "2px 2px";
+			}
+		</script>
+	</body>
+</html>
