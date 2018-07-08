@@ -1,5 +1,18 @@
 # Sumar intalniri
 
+### Document pentru discutii si explicatii
+https://docs.google.com/document/d/1mHbIglSUmhFdFmu4u-99oueb7Mb9m6rue8lUGWqo9PE/edit?usp=sharing
+
+## 08.07 - Intalnirea 3
+  * inregistrarea de azi: https://www.icloud.com/iclouddrive/0F7cGI5edv868eZJ50WdKKy9w#Intalnire%5FRetele%5F3_2018-07-08.mp4
+  * whiteboard: https://www.bitpaper.io/go/retele3/SyaVl1gQQ
+  * whiteboard git: https://github.com/bogdancondurache/IE-ID-2-2/commit/a3982f369b7cd65a454ad2b4674bee844dd3ec88
+  * link-uri:
+   * https://en.wikipedia.org/wiki/Digital_signature
+   * https://en.wikipedia.org/wiki/Digital_signature#/media/File:Private_key_signing.png
+   * https://www.thegeekstuff.com/2012/03/ip-protocol-header/
+   * https://static.thegeekstuff.com/wp-content/uploads/2012/03/ip-header-2.png
+
 ## 04.07 - Intalnirea 2
   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0ESYKGDjMPw9FkDz2mCd0ZEJw#Intalnire%5FRetele%5F2_2018-07-04.mp4
   * whiteboard: https://www.bitpaper.io/go/retele2/H1UTmK9Gm

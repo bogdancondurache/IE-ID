@@ -3,6 +3,10 @@
 ### Subiecte de discutie
 https://docs.google.com/document/d/10Egfa6MoO25Kog9h3OlYU3LaK4xs0KsdkD-1h4AYBZc/edit?usp=sharing
 
+## 08.07 - Intalnirea 6
+   * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/7f64390266f9fd8d6681bab572aa990089824b28
+   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0EQ21Nb4JFzI8apYyRjnhkjow#Intalnire%5FIPC%5F6_2018-07-08.mp4
+
 ## 07.07 - Intalnirea 5
    * inregistrarea de azi: https://www.icloud.com/iclouddrive/0lvEGgXUnDAUeEOmYJ_2z_X7Q#Intalnire%5FIPC%5F5_2018-07-07.mp4
 
