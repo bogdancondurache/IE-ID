@@ -3,6 +3,9 @@
 ### Subiecte de discutie
 https://docs.google.com/document/d/10Egfa6MoO25Kog9h3OlYU3LaK4xs0KsdkD-1h4AYBZc/edit?usp=sharing
 
+## 07.07 - Intalnirea 5
+   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0lvEGgXUnDAUeEOmYJ_2z_X7Q#Intalnire%5FIPC%5F5_2018-07-07.mp4
+
 ## 29.06 - Intalnirea 4
    * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/8f8ad969628c014da26cf82d265791d958b14818
    * inregistrarea de azi: https://www.icloud.com/iclouddrive/0OZuADQ1go2I4fKsV82AuL6mA#Intalnire%5FIPC%5F4_2018-06-29.mp4

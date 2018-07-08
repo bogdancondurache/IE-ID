@@ -1,6 +1,6 @@
 # Sumar intalniri
 
-## 29.06 - Intalnirea 2
+## 04.07 - Intalnirea 2
   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0ESYKGDjMPw9FkDz2mCd0ZEJw#Intalnire%5FRetele%5F2_2018-07-04.mp4
   * whiteboard: https://www.bitpaper.io/go/retele2/H1UTmK9Gm
   * whiteboard git: https://github.com/bogdancondurache/IE-ID-2-2/commit/db9353478e5518565d4621403ec3b2f7c1369d96
