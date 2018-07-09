@@ -3,6 +3,22 @@
 ### Subiecte de discutie
 https://docs.google.com/document/d/1VrneV2o15ZwA5noMYWna8zxWof9IlY6NoutGTytkwFg/edit?usp=sharing
 
+## 09.07 - Intalnirea 7
+  * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/976290bee1edb86ca67fbb2692b9a53df78fb1d2
+  * inregistrarea de azi: https://www.icloud.com/iclouddrive/0QYnBVgCY0kAnmag0qNTIuAOA#Intalnire%5FSDA%5F7_2018-07-09.mp4
+  * whiteboard: https://www.bitpaper.io/go/algo7/HJIIkZ-XQ
+  * whiteboard git: https://github.com/bogdancondurache/IE-ID-2-2/commit/8ed399f57bcb33d300b478cb3a064e867c42d8c1
+  * subiecte
+    * <https://scontent.fomr1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/36880748_464637717295754_8216574437873418240_n.jpg?_nc_cat=0&oh=b4b26fe79a88581f1bf618a1c6305b21&oe=5BEBC6B2>
+    * <https://scontent.fomr1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/36880748_464637717295754_8216574437873418240_n.jpg?_nc_cat=0&oh=b4b26fe79a88581f1bf618a1c6305b21&oe=5BEBC6B2>
+    
+  * link-uri:
+    * <https://ro.wikipedia.org/wiki/Matrice_de_adiacen%C8%9B%C4%83>
+    * https://www.geeksforgeeks.org/topological-sorting/
+    * https://www.geeksforgeeks.org/heap-sort/
+    * https://ro.wikipedia.org/wiki/Quicksort
+    * https://www.geeksforgeeks.org/binary-heap/
+
 ## 09.07 - Intalnirea 6
   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0yJ1owVttXxLsdB2CwEfR5U3Q#Intalnire%5FSDA%5F6_2018-07-09.mp4
   * whiteboard: https://www.bitpaper.io/go/algo6/rJP9ATl7Q
