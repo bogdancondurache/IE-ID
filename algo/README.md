@@ -3,6 +3,14 @@
 ### Subiecte de discutie
 https://docs.google.com/document/d/1VrneV2o15ZwA5noMYWna8zxWof9IlY6NoutGTytkwFg/edit?usp=sharing
 
+## 09.07 - Intalnirea 6
+  * inregistrarea de azi: https://www.icloud.com/iclouddrive/0yJ1owVttXxLsdB2CwEfR5U3Q#Intalnire%5FSDA%5F6_2018-07-09.mp4
+  * whiteboard: https://www.bitpaper.io/go/algo6/rJP9ATl7Q
+  * whiteboard git: https://github.com/bogdancondurache/IE-ID-2-2/commit/ef7c22a8790e28d49fee3ede853ef01153cf3d98
+  * link-uri:
+   * https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
+   * https://www.geeksforgeeks.org/red-black-tree-set-2-insert/
+
 ## 07.07 - Intalnirea 5
   * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/b30991ffe283964d54e8f7e1b48a638d3729e55f
   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0G7ZUGKgwiYPnzId0pGs_9qqg#Intalnire%5FSDA%5F5_2018-07-07.mp4
