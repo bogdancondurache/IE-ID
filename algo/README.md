@@ -8,8 +8,8 @@ https://docs.google.com/document/d/1VrneV2o15ZwA5noMYWna8zxWof9IlY6NoutGTytkwFg/
   * whiteboard: https://www.bitpaper.io/go/algo6/rJP9ATl7Q
   * whiteboard git: https://github.com/bogdancondurache/IE-ID-2-2/commit/ef7c22a8790e28d49fee3ede853ef01153cf3d98
   * link-uri:
-   * https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
-   * https://www.geeksforgeeks.org/red-black-tree-set-2-insert/
+    * https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
+    * https://www.geeksforgeeks.org/red-black-tree-set-2-insert/
 
 ## 07.07 - Intalnirea 5
   * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/b30991ffe283964d54e8f7e1b48a638d3729e55f
