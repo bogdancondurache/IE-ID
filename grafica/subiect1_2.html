@@ -1,0 +1,25 @@
+<!-- Se insereaza un text si un cuvant care, la click, isi schimba modul de afisare in div,
+si daca se mai da click o data, la span -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div>Lorem <span id="cuvant" onclick="change()">ipsum</span> dolor sit amet, consectetur adipiscing elit. Pellentesque cursus consequat purus, a feugiat mauris pretium et. Phasellus nibh nulla, laoreet vitae blandit sit amet, scelerisque eget purus. Maecenas dictum neque quis leo accumsan dictum. Nullam pellentesque dui quis blandit consectetur.
+		</div>
+		<script>
+		var status = 1;  // status == 1 => este span; status == 0 => este div
+		function change() {
+			if (status == 1) {
+				document.getElementById('cuvant').style.display = "block";
+				status = 0;
+			} else if (status == 0) {
+				document.getElementById('cuvant').style.display = "inline";
+				status = 1; 
+			}
+		}
+		</script>
+	</body>
+</html>

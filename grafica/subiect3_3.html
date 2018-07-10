@@ -1,0 +1,30 @@
+<!-- se insereaza o poza si un buton, la apasarea butonului se ascunde poza, iar la apasarea
+ulterioara a butonului se afiseaza -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			img {
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="image" src="https://png.icons8.com/metro/1600/html.png">
+		<button onclick="apasare()">Buton</button>
+		<script>
+		var status = 1;  // status == 1 => afisata; status == 0 => ascunsa
+		function apasare() {
+			if (status == 1) {
+				document.getElementById('image').style.visibility = "hidden";
+				status = 0;
+			} else if (status == 0) {
+				document.getElementById('image').style.visibility = "visible";
+				status = 1; 
+			}
+		}
+		</script>
+	</body>
+</html>

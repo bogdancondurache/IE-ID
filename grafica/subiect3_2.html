@@ -1,0 +1,19 @@
+<!-- Se insereaza un text, la trecerea cu mouse-ul peste el se face italic si aliniere la dreapta -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div onmouseover="inauntru()" id="text">
+			Lorem ipsum dolor sit amet
+		</div>
+		<script>
+		function inauntru() {
+			document.getElementById("text").style.fontStyle = "italic";
+			document.getElementById("text").style.textAlign = "right";
+		}
+		</script>
+	</body>
+</html>

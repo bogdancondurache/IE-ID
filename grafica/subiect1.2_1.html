@@ -1,0 +1,28 @@
+<!-- Sa se insereze un link care nu e subliniat,
+cand mouse-ul este pe el sa contina textul "Cursorul este pe link" si
+cand este in afara lui sa contina "Cursorul este in alta parte" -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+	a {
+		text-decoration: none;
+	}
+	</style>
+	<body>
+		<a href="http://google.com" onmouseover="inauntru()" onmouseleave="afara()" id="link">
+			Cursorul este in alta parte
+		</a>
+		<script>
+		function inauntru() {
+			document.getElementById("link").innerHTML = "Cursorul este pe link";
+		}
+		function afara() {
+			document.getElementById("link").innerHTML = "Cursorul este in alta parte";
+		}
+		</script>
+	</body>
+</html>

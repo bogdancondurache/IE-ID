@@ -1,0 +1,23 @@
+<!-- Se insereaza un textbox/textarea si un buton, sa nu se permita trimiterea forumularului
+daca nu este text introdus in textbox -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form id="form">
+		<textarea id="text" name="text"></textarea>
+		<button onclick="validate(event)">Trimite</button>
+		</form>
+		<script>
+		function validate(event) {
+			event.preventDefault();
+			if(document.getElementById('text').value) {
+				document.getElementById('form').submit();
+			}
+		}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- se insereaza un link, la trecerea cu mouse-ul peste el se face boldat si subliniat, iar la
+iesirea cu mouse-ul revine la cum era initial -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<a onmouseover="adauga()" onmouseleave="scoate()" id="link">un text</a>
+		<script>
+		function adauga() {
+			document.getElementById("link").style.fontWeight = "bold";
+			document.getElementById("link").style.textDecoration = "underline";
+		}
+		function scoate() {
+			document.getElementById("link").style.fontWeight = "normal";
+			document.getElementById("link").style.textDecoration = "none";
+			// alternativ: document.getElementById("link").removeAttribute('style');
+		}
+		</script>
+	</body>
+</html>

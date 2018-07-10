@@ -1,0 +1,16 @@
+<!-- Inserati un textbox si in momentul in care se iese din textbox sa se afiseze valoarea intr-un alert -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<textarea onmouseout="insertValue(event)"></textarea>
+		<script>
+			function insertValue(event) {
+				alert(event.target.value);
+			}
+		</script>
+	</body>
+</html>
