@@ -1,5 +1,9 @@
 # Sumar intalniri
 
+## 11.07 - Intalnirea 4
+  * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/843405a704724ea27caf6a1d56ce2c2d5813733e
+  * inregistrarea de azi: https://www.icloud.com/iclouddrive/0g9vkwewDgjxuwgRNTfqMnoQQ#Intalnire%5FGrafica%5F4_2018-07-11.mp4
+
 ## 10.07 - Intalnirea 3
   * codul de azi: https://github.com/bogdancondurache/IE-ID-2-2/commit/5cf348ae2fb97aad9ab61358d2e6ab61268d4b0b
   * inregistrarea de azi: https://www.icloud.com/iclouddrive/0QsKTEVjT2SUY0WUQmVSe4wdQ#Intalnire%5FGrafica%5F3_2018-07-10.mp4
