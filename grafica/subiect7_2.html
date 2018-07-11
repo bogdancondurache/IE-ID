@@ -1,0 +1,16 @@
+<!-- Creati un textbox care, la apasarea unei taste, provoaca afisarea unui mesaj de alerta ce indica tasta care s-a apasat.  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<textarea onkeydown="afiseaza(event)"></textarea>
+		<script>
+		function afiseaza(event) {
+			alert(event.key);
+		}
+		</script>
+	</body>
+</html>

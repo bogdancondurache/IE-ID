@@ -1,0 +1,29 @@
+<!-- Creati o zona editabila (DIV) si, alaturi, un buton care sa insereze in ea o imagine la pozitia cursorului.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		img {
+			height: 50px;
+			position: absolute;
+			display: none;
+		}
+		</style>
+	</head>
+	<body>
+		<div contenteditable="true"></div>
+		<button onclick="afiseaza(event)">Buton</button>
+		<img id="poza" src="http://mxtrianz.me/wp-content/uploads/2017/05/small-photos-2-filewiktionary-smallsvg.jpg">
+		<script>
+		function afiseaza(event) {
+			var image = document.getElementById('poza');
+			image.style.top = event.clientY + "px";
+			image.style.left = event.clientX + "px";
+			image.style.display = "block";
+		}
+		</script>
+	</body>
+</html>

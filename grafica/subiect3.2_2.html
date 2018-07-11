@@ -1,0 +1,34 @@
+<!-- Creati o pagina cu o imagine ce fuge de cursor (cand ajungem cu cursorul pe ea, se muta cu o distanta oarecare). -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			img {
+				position: fixed;
+				height: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="imagine" onmouseover="move(event)" src="http://mxtrianz.me/wp-content/uploads/2017/05/small-photos-2-filewiktionary-smallsvg.jpg">
+		<script>
+			function move(event) {
+				var el = document.getElementById('imagine');
+//				if (el.style.top == "") {
+//					el.style.top = "50px";
+//				} else {
+//					el.style.top = 50 + parseInt(el.style.top) + "px";
+//				}
+//				if (el.style.left == "") {
+//					el.style.left = "50px";
+//				} else {
+//					el.style.left = 50 + parseInt(el.style.left) + "px";
+//				}
+				el.style.top = event.clientY + 20 + "px";
+				el.style.left = event.clientX + 20 + "px";
+			}
+		</script>
+	</body>
+</html>

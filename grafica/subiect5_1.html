@@ -1,0 +1,19 @@
+<!-- Creati o propozitie care isi schimba culoarea si marimea fontului
+in momentul in care se da dublu click pe suprafata ei. -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div ondblclick="schimba()" id="text">Lorem impsum dolor sit amet</div>
+		<script>
+		function schimba() {
+			var el = document.getElementById('text');
+			el.style.fontSize = "20px";
+			el.style.color = "red";
+		}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<!-- Creati un DIV centrat de 200x200 pixeli, cu chenar. Cand treceti cu mouseul peste el, sa dispara. -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		div {
+			margin: auto;
+			width: 200px;
+			height: 200px;
+			border: 2px solid;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="divul" onmouseout="show()" onmouseover="hide()"></div>
+		<script>
+		function hide() {
+			document.getElementById('divul').style.opacity = 0;
+		}
+		function show() {
+			document.getElementById('divul').style.opacity = 1;
+		}
+		</script>
+	</body>
+</html>

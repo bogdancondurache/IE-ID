@@ -1,0 +1,18 @@
+<!-- Creati 2 textboxuri. Cand cursorul intra in primul textbox, sa apara un al treilea textbox, cu valoarea "xxx" inaintea celor doua.  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<textarea id="t" style="display: none;">xxx</textarea>
+		<textarea onmouseover="afiseaza()"></textarea>
+		<textarea></textarea>
+		<script>
+		function afiseaza() {
+			document.getElementById('t').style.display = "inline-block";
+		}
+		</script>
+	</body>
+</html>

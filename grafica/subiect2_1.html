@@ -1,0 +1,27 @@
+<!-- Creati un tabel de 2x2 care sa aiba o imagine pe fundalul uneia din celule.
+La intrarea cu mouseul pe suprafata celulei, sa apara un mesaj de alerta. -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.celula {
+				height: 200px;
+				width: 200px;
+				background-image: url("http://mxtrianz.me/wp-content/uploads/2017/05/small-photos-2-filewiktionary-smallsvg.jpg");
+			}
+		</style>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<td>Celula1</td>
+				<td>Celula2</td>
+			</tr>
+			<tr>
+				<td class="celula" onmouseover="alert('esti aici');"></td>
+				<td>Celula4</td>
+			</tr>
+	</body>
+</html>

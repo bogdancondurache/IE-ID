@@ -1,0 +1,18 @@
+<!-- Creati o zona editabila (DIV) in pagina si, alaturi, un buton care insereaza in ea un tabel cu 2 celule.-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div contenteditable="true" id="divul"></div>
+		<button onclick="adauga()">Buton</button>
+		<script>
+			function adauga() {
+				document.getElementById('divul').innerHTML = 
+				'<table border="1"><tr><td>1</td><td>2</td></tr></table>'
+			}
+		</script>
+	</body>
+</html>

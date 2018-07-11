@@ -1,0 +1,26 @@
+<!-- Creati 3 textboxuri si un buton care provoaca trecerea cursorului
+dintr-un textbox in celalalt (iar cand trece de ultimul, cursorul sa revina inapoi in primul textbox). -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<textarea></textarea> <!-- document.getElementsByTagName('textarea')[0] -->
+		<textarea></textarea> <!-- document.getElementsByTagName('textarea')[1] -->
+		<textarea></textarea> <!-- document.getElementsByTagName('textarea')[2] -->
+		<button onclick="schimba()">Buton</button>
+		<script>
+		var index = 0;
+		function schimba() {
+			document.getElementsByTagName('textarea')[index].focus()
+			if (index == 2) {
+				index = 0;
+			} else {
+				index += 1;
+			}
+		}
+		</script>
+	</body>
+</html>

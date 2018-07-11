@@ -1,0 +1,33 @@
+<!-- Creati un DIV in coltul dreapta jos al ferestrei, apoi un buton care comuta caracterul editabil
+al DIVului (daca e editabil il face needitabil si invers)-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		div {
+			position: absolute;
+			width: 100px;
+			top: 100%;
+			left: 100%;
+			border: 1px solid;
+		}
+		</style>
+	</head>
+	<body>
+		<button onclick="schimba()">Buton</button>
+		<div id="divul" contenteditable="true"></div>
+		<script>
+		var value = "false";
+		function schimba() {
+			document.getElementById('divul').contentEditable = value;
+			if (value == "false") {
+				value = "true";
+			} else {
+				value = "false";
+			}
+		}
+		</script>
+	</body>
+</html>
