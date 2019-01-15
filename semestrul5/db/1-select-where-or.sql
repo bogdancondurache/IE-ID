@@ -1,0 +1,6 @@
+SELECT
+    *
+FROM
+    TEST.DEMO_CUSTOMERS
+WHERE
+    "DEMO_CUSTOMERS"."CUST_FIRST_NAME" = 'Eugene' OR upper("DEMO_CUSTOMERS"."CUST_STATE") = upper('ny');

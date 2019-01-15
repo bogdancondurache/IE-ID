@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<button><span>bla</span></button>
+		<script type="text/javascript">
+		
+//		document.getElementsByTagName('button')[0].addEventListener('click', function(e) {
+//			alert(e.target.innerHTML);
+//		})
+		$('button').click(function () {
+			alert($(this).text());
+		})
+		</script>
+	</body>
+</html>

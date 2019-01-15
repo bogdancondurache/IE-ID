@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercitiul 3</title>
+		<style>
+			.gallery {
+				display: none;
+				width: 300px;
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img class="gallery" src="https://via.placeholder.com/300/FF0000">
+			<img class="gallery" src="https://via.placeholder.com/300/00FF00">
+			<img class="gallery" src="https://via.placeholder.com/300/0000FF">
+			<img class="gallery" src="https://via.placeholder.com/300/FF00FF">
+
+			<button onclick="jump(-1)">PREV</button>
+			<span id="progress"></span>
+			<button onclick="jump(1)">NEXT</button>
+		</div>
+
+		<script>
+		var index = 1;
+		var imgs = document.getElementsByClassName("gallery");
+		var prog = document.getElementById("progress");
+		var len = imgs.length;
+		show();
+
+		function jump(n) {
+			index += n;
+			show();
+		}
+		
+		function showProgress() {
+			prog.innerHTML = index + " / " + len;
+		}
+
+		function show() {
+			if (index > len) {
+				index = 1;
+			}    
+			if (index < 1) {
+				index = len;
+			}
+			showProgress();
+			for (var i = 0; i < len; i++) {
+				 imgs[i].style.display = "none";  
+			}
+			imgs[index-1].style.display = "block";  
+		}
+		</script>
+	</body>
+</html>

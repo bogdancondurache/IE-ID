@@ -1,0 +1,4 @@
+INSERT INTO "TEST"."DEMO_CUSTOMERS"
+("CUST_FIRST_NAME", "CUST_LAST_NAME", "CUST_CITY")
+VALUES
+('Gica', 'Contra', 'Cluj-Napoca');

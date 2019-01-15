@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			button {
+				box-shadow: 0px 8px 15px blue;
+				border: 1px solid white;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="http://google.com" id="link">Link</a>
+		<button onclick="apasare()">Buton</button>
+		<script>
+		var status = 1;
+		function apasare() {
+			if (status == 1) {
+				document.getElementById('link').style.visibility = "hidden";
+				status = 0;
+			} else if (status == 0) {
+				document.getElementById('link').style.visibility = "visible";
+				status = 1; 
+			}
+		}
+		</script>
+	</body>
+</html>

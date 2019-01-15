@@ -1,0 +1,1 @@
+se vor seta 3 cookie-uri diferite, dar cand vor fi folosite in scriptul PHP vor fi preluate ca un array, al carui elemente sunt afisate

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercitiul 2</title>
+		<style>
+			form {
+				background-color: teal;
+				padding: 10px;
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<label for="name">Nume</label><br />
+			<input type="text" id="name" name="name"><br />
+			<label for="forename">Prenume</label><br />
+			<input type="text" id="forename" name="forename"><br />
+			<label for="address">Adresa</label><br />
+			<input type="text" id="address" name="address"><br />
+			<label for="birthdate">Data nasterii</label><br />
+			<input type="text" id="birthdate" name="birthdate"><br />
+			<label for="phone">Telefon</label><br />
+			<input type="text" id="phone" name="phone"><br />
+			<label for="email">Email</label><br />
+			<input type="text" id="email" name="email"><br />
+			<label for="pass">Parola</label><br />
+			<input type="password" id="pass" name="pass">
+			<input type="button" onmousedown="showPass()" onmouseup="hidePass()" value="Vezi parola">
+			<br /><br />
+			<label for="color">Culoarea favorita</label>
+			<input type="color" id="color" name="color"><br />
+			<br />
+			<input type="submit" value="Trimite">
+			<input type="reset" value="Reseteaza">
+		</form>
+	
+	<script type="text/javascript">
+		var regexOneLetter = /[a-zA-Z]/;
+		var regexOneDigit = /\d/;
+		var regexName = /^[a-zA-z]{3}$/;
+		var regexDate = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+		var regexPhone1 = /^[\d]+$/;
+		var regexPhone2 = /^\+[\d\-]+$/;
+		var regexEmail = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+		
+		var formName = document.getElementById("name");
+		var formForename = document.getElementById("forename");
+		var formAddress = document.getElementById("address");
+		var formBirthdate = document.getElementById("birthdate");
+		var formPhone = document.getElementById("phone");
+		var formEmail = document.getElementById("email");
+		var formPass = document.getElementById("pass");
+		
+		function validate(el, value) {
+			if (!value) {
+				el.style.background = "#FFA500";
+			} else {
+				el.style.background = "#FFFFFF";
+			}
+		}
+		
+		function isValidName(e) { validate(e.target, regexName.test(formName.value)); }
+		function isValidForname(e) { validate(e.target, regexName.test(formForename.value)); }
+		function isValidAddress(e) { 
+			validate(e.target, regexOneLetter.test(formAddress.value) && regexOneDigit.test(formAddress.value));
+		}
+		function isValidDate(e) { validate(e.target, regexDate.test(formBirthdate.value)); }
+		function isValidPhone(e) {
+			validate(e.target, regexPhone1.test(formPhone.value) || regexPhone2.test(formPhone.value));
+		}
+		function isValidEmail(e) { validate(e.target, regexEmail.test(formEmail.value)); }
+		
+		function restrictName(e) {
+			if (/\D/.test(e.key)) {
+				return true;
+			}
+			e.preventDefault();
+			return false;
+		}
+		
+		function restrictDate(e) {
+			if (/\d/.test(e.key) || e.key === '/') {
+				return true;
+			}
+			e.preventDefault();
+			return false;
+		}
+		
+		function showPass() { formPass.type = "text"; }
+		function hidePass() { formPass.type = "password"; }
+		
+		formName.addEventListener("blur", isValidName);
+		formForename.addEventListener("blur", isValidForname);
+		formAddress.addEventListener("blur", isValidAddress);
+		formBirthdate.addEventListener("blur", isValidDate);
+		formPhone.addEventListener("blur", isValidPhone);
+		formEmail.addEventListener("blur", isValidEmail);
+		
+		formName.addEventListener("keypress", restrictName);
+		formForename.addEventListener("keypress", restrictName);
+		formBirthdate.addEventListener("keypress", restrictDate);
+	</script>
+	</body>
+</html>
